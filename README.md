@@ -1,182 +1,65 @@
-## 📘 Reddit Comment Sentiment Analysis
+# 📘 Reddit Comment Sentiment Analysis — Experimentation
 
+This repository contains all the **experimentation work** for building a complete **Reddit Comment Sentiment Classification System**.  
+It focuses on **data preprocessing, NLP pipeline creation, model experimentation, imbalance handling, and feature extraction techniques**.
 
-This project performs sentiment analysis on Reddit comments using a full Machine Learning and NLP workflow.
+The goal of this repo is to explore ideas, compare multiple approaches, and identify the best-performing model before deploying it into production.
 
-It includes preprocessing, feature engineering, experimentation, imbalance handling, and model training.
+---
 
+## 🚀 Project Overview
 
-🚀 Project Overview
+This experimentation workflow includes:
 
+- ✔ Classifying Reddit comments into **Positive**, **Negative**, and **Neutral**  
+- ✔ Full **NLP preprocessing pipeline** (cleaning → tokenization → lemmatization)  
+- ✔ Feature extraction using **TF-IDF** and **Bag-of-Words**  
+- ✔ Training multiple ML models for benchmarking  
+- ✔ Hyperparameter tuning for performance optimization  
+- ✔ Complete experiment tracking using notebooks  
 
-
-
-Classifies comments into Positive, Negative, Neutral
-
-
-
-
-Complete NLP preprocessing (cleaning, tokenization, lemmatization)
-
-
-
-
-TF-IDF and Bag-of-Words feature extraction
-
-
-
-
-Multiple ML models with hyperparameter tuning
-
-
-
-
-Full experimentation workflow stored as notebooks
-
+---
 
 ## 🧪 Experiments Included
 
+This repository contains every major experiment needed to build a robust NLP model:
 
-This repository contains every major type of ML/NLP experiment, including:
+- Text cleaning & preprocessing  
+- Tokenization & Lemmatization  
+- Stopword removal  
+- Handling imbalanced dataset  
+- TF-IDF & BoW vectorization  
+- Training multiple ML models:  
+  - **KNN**  
+  - **Logistic Regression**  
+  - **Random Forest**  
+  - **XGBoost**  
+  - **SVM (Best Performing Model)**  
+- Evaluation using:
+  - Accuracy  
+  - Precision  
+  - Recall  
+  - F1-Score  
 
+Each experiment is stored as a **Jupyter notebook** for transparency and reproducibility.
 
+---
 
+## 🔗 Important Related Repositories
 
-Baseline Models
+### ✅ **Production Web App (Chrome Extension + Flask API)**  
+https://github.com/apoorvtechh/reddit-comment-sentiment-analysis
 
 
+### 🔍 **Project Synopsis (Complete Documentation)**  
+https://github.com/apoorvtechh/synopsis
 
+---
 
-BoW vs TF-IDF comparison
+## 👨‍💻 Author  
+**Apoorv Gupta**  
+📧 Email: apoorvtechh@gmail.com  
+🐙 GitHub: https://github.com/apoorvtechh
 
-
-
-
-N-gram range experiments (1,3)
-
-
-
-
-Custom feature engineering
-
-
-
-
-Imbalance handling:
-
-
-
-
-Oversampling
-
-
-
-
-Undersampling
-
-
-
-
-Class weights
-
-
-
-
-SMOTE
-
-
-
-
-SMOTE-ENN
-
-
-
-
-ADASYN
-
-
-
-
-
-
-Model Experiments with HPT:
-
-
-
-
-Logistic Regression
-
-
-
-
-SVM
-
-
-
-
-KNN
-
-
-
-
-Random Forest
-
-
-
-
-XGBoost
-
-
-
-
-LightGBM
-
-
-
-
-
-
-Final model selection and evaluation
-
-
-
-
-All experiment notebooks are inside
- the repo (EXP-1 to EXP-7), along with multiple confusion matrix plots 
-showing performance at different dataset sizes.
-
-
-
-
-Confusion matrix visualizations for all experiments
-
-## 📦 Output
-
-
-
-
-Final trained model
-
-
-
-
-TF-IDF vectorizer
-
-
-
-
-Processed datasets
-
-
-
-
-Multiple confusion matrices
-
-
-
-
-Experiment notebooks documenting the full workflow
-
-
-
+---
 
